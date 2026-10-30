@@ -1,0 +1,51 @@
+:root {
+  --bg: #0f1116;
+  --bg-panel: #161a22;
+  --bg-hover: #1d222c;
+  --bg-active: #232a36;
+  --border: #262c38;
+  --text: #d7dce4;
+  --text-dim: #8b93a3;
+  --text-faint: #5c6474;
+  --accent: #e08c3f;
+  --accent-soft: rgba(224, 140, 63, 0.14);
+  --user-bg: #243447;
+  --assistant-bg: #1a1f29;
+  --summary-bg: #1d2a24;
+  --mono: 'SF Mono', ui-monospace, Menlo, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, 'PingFang SC', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+}
+
+#app {
+  height: 100%;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #2e3542;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
