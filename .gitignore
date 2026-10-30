@@ -1,0 +1,7 @@
+node_modules
+dist
+.cache
+.playwright-mcp
+*.log
+src-tauri/target
+src-tauri/gen
